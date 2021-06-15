@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@500&family=Pridi&display=swap');
+
+:root{
+    --nav-font: 'Mitr', sans-serif;
+    --nav-weight: 500;
+    --title-font: 'Pridi', serif;
+    --title-weight: 400;
+
+    --primary-pink:#f5c3c1;
+    --primary-blue:#4a6279;
+
+    --accent: #f8f687;
+
+    --neutral-dark: #373847;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+    color: var(--neutral-dark);
+}
+nav{
+    background-color: var(--primary-blue);
+    border-radius: 0 0 10px 10px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    padding: 1rem 0;
+    transition: all 0.3s ease-in-out;
+}
+nav ul li:hover{
+    background-color: var(--primary-pink);
+}
+nav ul li a{
+    text-decoration: none;
+    color: var(--primary-pink);
+    font-family: var(--nav-font);
+    font-weight: var(--nav-weight);
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+    padding: 1rem;
+}
+nav ul li a:hover{
+    color: var(--primary-blue);
+}
+
+h2{
+    font-size: 1rem;
+    color: white;
+    padding: 1rem 0;
+    margin: auto 0;
+    width: 25%;
+    font-family: var(--title-font);
+    font-weight: var(--title-weight);
+}
+
+.isActive{
+    color: var(--accent);
+}
+
+
+h1{
+    font-family: var(--title-font);
+    font-weight: var(--title-weight);
+    margin-top: 4rem;
+}
+
+.btn{
+    border: 3px dashed var(--primary-blue);
+    background-color: var(--primary-pink);
+    color: var(--primary-blue);
+    padding: 0.5rem 2rem;
+    font-family: var(--nav-font);
+    border-radius: 50px;
+}
+.btn:hover{
+    border: 3px dashed var(--primary-pink);
+    background-color: var(--primary-blue);
+    color: var(--primary-pink);
+}

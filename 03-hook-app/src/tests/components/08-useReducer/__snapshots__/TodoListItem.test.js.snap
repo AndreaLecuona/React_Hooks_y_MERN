@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en TodoListItem debe renderizarse correctamente 1`] = `
+<li
+  className="list-item"
+  key="1"
+>
+  <p
+    className="false"
+    onClick={[Function]}
+  >
+    1
+    . 
+    Ver...
+  </p>
+  <button
+    className="btn btn-danger personal-btn"
+    onClick={[Function]}
+  >
+    Borrar
+  </button>
+</li>
+`;

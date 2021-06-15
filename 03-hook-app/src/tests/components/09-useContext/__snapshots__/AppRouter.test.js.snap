@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en AppRouter debe renderizarse correctamente 1`] = `
+<div>
+  <nav>
+    <ul>
+      <h2>
+        Learning React Router + useContext
+      </h2>
+      <li>
+        <a
+          aria-current="page"
+          className="isActive"
+          href="/"
+          onClick={[Function]}
+          style={Object {}}
+        >
+          Home
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          href="/about"
+          onClick={[Function]}
+        >
+          About
+        </a>
+      </li>
+      <li>
+        <a
+          aria-current={null}
+          href="/login"
+          onClick={[Function]}
+        >
+          Login
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <h1>
+      Home screen
+    </h1>
+    <hr />
+    <pre />
+  </div>
+</div>
+`;

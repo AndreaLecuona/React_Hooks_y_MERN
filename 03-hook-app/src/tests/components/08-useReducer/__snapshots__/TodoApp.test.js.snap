@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`pruebas en TodoApp debe renderizarse correctamente 1`] = `
+<div
+  className="wrapper"
+>
+  <div
+    className="row both-sides"
+  >
+    <div
+      className="col-sm-12 col-lg-7"
+    >
+      <h1>
+        Home cinema
+      </h1>
+      <h2>
+        Quarantine edition
+      </h2>
+      <h3>
+        Pelis por ver: 
+        0
+      </h3>
+      <TodoAdd
+        handleAdd={[Function]}
+      />
+    </div>
+    <div
+      className="col-sm-12 col-lg-5"
+    >
+      <TodoList
+        handleDelete={[Function]}
+        handleToggle={[Function]}
+        todos={Array []}
+      />
+    </div>
+  </div>
+</div>
+`;

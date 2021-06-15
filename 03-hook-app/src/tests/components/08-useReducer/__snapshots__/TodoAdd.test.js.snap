@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en TodoAdd debe renderizarse correctamente 1`] = `
+<div
+  className="form-group"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      autoComplete="off"
+      className="form-control"
+      name="description"
+      onChange={[Function]}
+      placeholder="Nombre de la película"
+      type="text"
+      value=""
+    />
+    <button
+      className="btn btn-outline-primary personal-btn mt-3"
+      type="submit"
+    >
+      Agregar a la lista
+    </button>
+  </form>
+</div>
+`;
